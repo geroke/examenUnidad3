@@ -1,10 +1,11 @@
 #include <iostream.h>
 #include <conio.h>
 #include <stdlib.h>
+#include "cuadropre.h"
+void cuadrito();
 main(){
+cuadrito();
 int n,r;
-
-gotoxy(10,2);cout<<"hola mundo :v";
 gotoxy(10,7);cout<<"dame un numero ";
 cin>>n;
 r=n%2;
